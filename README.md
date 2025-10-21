@@ -157,7 +157,7 @@ Notes:
 
 ### Canonical Achiral Group-Stratified (Table 2)
 
-Keeps achiral-canonical **whole-peptide SMILES groups** intact across folds (no leakage), and balances labels when supported.
+Keeps achiral-canonical **whole-peptide SMILES groups** intact across folds (no leakage) between splits, and balances labels when supported.
 
 **Option A — compute groups on the fly from saved SMILES:**
 
