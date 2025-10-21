@@ -292,6 +292,3 @@ If you use this code or kernels in your work, please cite the accompanying manus
 
 ---
 
-## License
-
-This project is released under the **Apache-2.0** (or MIT) license. See `LICENSE` for details.
