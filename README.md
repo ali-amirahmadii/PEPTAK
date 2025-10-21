@@ -224,6 +224,8 @@ Paste these lines directly into your manuscript tables.
 
 If you already have `D1.npy`, `D1.labels.npy`, and `D1.smiles.npy`, place them in `out/` and jump straight to [Run Nested Cross-Validation](#run-nested-cross-validation).
 
++ D1_pos.npy for PMD-GAK kernel
+
 ---
 
 ## Tips & Troubleshooting
