@@ -267,19 +267,7 @@ If you already have `D1.npy`, `D1.labels.npy`, and `D1.smiles.npy`, place them i
 
 ---
 
-## Windows Notes
 
-Use PowerShell backticks `` ` `` (or CMD carets `^`) for line continuations. Example:
-
-```powershell
-python -m peptak.cli nested-gp `
-  --gram out/D1.npy `
-  --labels out/D1.labels.npy `
-  --outer 5 --inner 5 `
-  | tee out\results_d1_label_strat.json
-```
-
----
 
 ## Reproducibility
 
@@ -296,7 +284,7 @@ If you use this code or kernels in your work, please cite the accompanying manus
 ```bibtex
 @article{YourPaper2025,
   title   = {Gaussian process with Molecular Fingerprint: Kernel for peptide membrane permeability},
-  author  = {...},
+  author  = {Ali and Alessandro},
   year    = {2025},
   note    = {Preprint}
 }
