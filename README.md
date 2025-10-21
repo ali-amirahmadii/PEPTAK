@@ -27,10 +27,8 @@ This guide shows how to:
 - [Summarize Results](#summarize-results)
 - [Using Precomputed Kernels](#using-precomputed-kernels)
 - [Tips & Troubleshooting](#tips--troubleshooting)
-- [Windows Notes](#windows-notes)
 - [Reproducibility](#reproducibility)
 - [Citation](#citation)
-- [License](#license)
 
 ---
 
