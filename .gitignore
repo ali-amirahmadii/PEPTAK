@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Caches
+.peptak_cache/
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# Optional: if you don't want to commit outputs,
+# comment these out if you DO want them in Git.
+# out/
+# *.npy
+# *.csv
