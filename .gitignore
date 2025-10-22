@@ -27,7 +27,6 @@ Thumbs.db
 .idea/
 
 # Optional: if you don't want to commit outputs,
-# comment these out if you DO want them in Git.
-# out/
-# *.npy
+out/
+*.npy
 # *.csv
