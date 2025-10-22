@@ -5,19 +5,19 @@ from tqdm import tqdm
 from rdkit.Chem import AllChem
 from rdkit import Chem
 from rdkit.DataStructs import TanimotoSimilarity
-from joblib import Memory
+#from joblib import Memory
 from joblib import Parallel, delayed
 from itertools import combinations
 
 
-memory = Memory(location=".peptak_cache", verbose=0)
+#memory = Memory(location=".peptak_cache", verbose=0)
 
 def _normalize_to_unit_diag(K: np.ndarray, eps: float = 1e-15) -> np.ndarray:
     d = np.clip(np.diag(K), eps, None)
     S = 1.0 / np.sqrt(d)
     return (K * S[:, None]) * S[None, :]
 
-@memory.cache
+#@memory.cache
 def compute_gram(objects, kernel_fn, normalize=True, desc="Gram", n_jobs=1):
     n = len(objects)
     K = np.zeros((n, n), dtype=float)
