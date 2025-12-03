@@ -277,16 +277,19 @@ If you already have `D1.npy`, `D1.labels.npy`, and `D1.smiles.npy`, place them i
 
 ## Citation
 
-If you use this code or kernels in your work, please cite the accompanying manuscript (update with your details):
+If you use this code or kernels in your work, please cite:
+
+Ali Amirahmadi, Gökçe Geylan, Leonardo De Maria, Farzaneh Etminani, Mattias Ohlsson, and Alessandro Tibo.  
+**A decoupled alignment kernel for peptide membrane permeability predictions.**  
+arXiv:2511.21566 [cs.LG], 2025.  
+[arXiv PDF](https://arxiv.org/pdf/2511.21566)  
+
 
 ```bibtex
-@article{YourPaper2025,
-  title   = {Gaussian process with Molecular Fingerprint: Kernel for peptide membrane permeability},
-  author  = {Ali and Alessandro},
+@article{amirahmadi2025decoupled,
+  title   = {A decoupled alignment kernel for peptide membrane permeability predictions},
+  author  = {Amirahmadi, Ali and Geylan, G{\"o}k{\c{c}}e and De Maria, Leonardo and Etminani, Farzaneh and Ohlsson, Mattias and Tibo, Alessandro},
+  journal = {arXiv preprint arXiv:2511.21566},
   year    = {2025},
-  note    = {Preprint}
 }
-```
-
----
 
